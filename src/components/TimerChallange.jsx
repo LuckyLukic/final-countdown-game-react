@@ -5,7 +5,7 @@ export default function TimerChallange({ title, targetTime }) {
   const [timeStarted, setTimeStarted] = useState(false);
   const [timeExpired, setTimeExpired] = useState(false);
 
-  const timer = useRef(0);
+  const timer = useRef();
   const dialog = useRef();
 
   function handleTimer() {
