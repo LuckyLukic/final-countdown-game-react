@@ -33,7 +33,7 @@ export default function TimerChallange({ title, targetTime }) {
         ref={dialog}
         targetTime={targetTime}
         result={"lost"}
-        remainingTime={timeRemaining}
+        timeRemaining={timeRemaining}
         onReset={handleReset}
       />
       <section className="challenge">
